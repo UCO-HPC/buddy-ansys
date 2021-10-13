@@ -1,0 +1,8 @@
+---
+name: ANSYS Workbench
+category: Interactive Apps
+subcategory: GUIs
+role: batch_connect
+description: "This app will launch an [ANSYS Workbench] within a [Turbo VNC] server
+  on Buddy. Please note that ANSYS is currently unable to Operate on GPU nodes. This means that APDL and some visualization tools are not available. \r\n\r\n[ANSYS Workbench]: https://www.ansys.com/\r\n[Turbo VNC]: https://www.turbovnc.org/\r\n"
+icon: ''

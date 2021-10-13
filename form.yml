@@ -1,0 +1,25 @@
+---
+cluster: "buddy"
+form:
+  - version
+  - bc_num_hours
+  - buddy_queue
+  - bc_vnc_resolution
+    
+attributes:
+  bc_vnc_resolution:
+    required: true
+  buddy_queue:
+    label: Queue
+    help: Please select a queue from the drop-down.
+    widget: select
+    options:
+      - [ "General", "general" ]
+      - [ "High Mem", "high-mem" ]
+      - [ "GPU", "gpu"]
+  version:
+    widget: select
+    label: "ANSYS version"
+    help: "This defines the version of ANSYS you want to load."
+    options:
+      - [ "2020R2", "ANSYS/2020R2" ]
