@@ -10,4 +10,4 @@ Changes to this project that result in an increase in minor revision will be add
 ### Added
 - Initial commit of current code
 
-[Unreleased]: https://github.com/UCO-HPC/buddy_ansys/compare/1.1.20211013...HEAD
+[Unreleased]: https://github.com/UCO-HPC/buddy_ansys/compare/1.1.0...HEAD
