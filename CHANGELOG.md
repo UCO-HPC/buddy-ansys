@@ -1,5 +1,5 @@
 # Changelog
-Changes to this project that result in an increase in minor revision will be added here. Please follow the format outlined in [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
+Changes to this project that result in an increase of the major and or minor revision will be added here. Please follow the format outlined in [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) and keep with the syntax associated with [Semantic Versioning](https://semver.org/)
 
 ## [Unreleased]
 ### Added
