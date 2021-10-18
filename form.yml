@@ -2,24 +2,44 @@
 cluster: "buddy"
 form:
   - version
-  - bc_num_hours
   - buddy_queue
+  - buddy_num_hours
+  - buddy_num_cores
   - bc_vnc_resolution
     
 attributes:
-  bc_vnc_resolution:
-    required: true
-  buddy_queue:
-    label: Queue
-    help: Please select a queue from the drop-down.
-    widget: select
-    options:
-      - [ "General", "general" ]
-      - [ "High Mem", "high-mem" ]
-      - [ "GPU", "gpu"]
   version:
     widget: select
     label: "ANSYS version"
     help: "This defines the version of ANSYS you want to load."
     options:
       - [ "2020R2", "ANSYS/2020R2" ]
+  buddy_queue:
+    label: Queue
+    help: "Queue your job will run on"
+    widget: select
+    options:
+      - [ "General", "general" ]
+      - [ "High Mem", "high-mem" ]
+      - [ "GPU", "gpu"]
+    value: "General"
+  buddy_num_hours:
+    widget: number_field
+    label: "Number of hours"
+    required: true
+    help: "Set the length of time for this job (1-48)"
+    min: 1
+    max: 48
+    step: 1
+    value: 2
+  buddy_num_cores:
+    widget: number_field
+    label: "Number of cores"
+    required: true
+    help: "Set the number of cores for this job (1-20)"
+    min: 1
+    max: 20
+    step: 1
+    value: 2
+  bc_vnc_resolution:
+    required: true
