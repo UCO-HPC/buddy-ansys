@@ -21,7 +21,7 @@ attributes:
     options:
       - [ "General", "general" ]
       - [ "High Mem", "high-mem" ]
-      - [ "GPU", "gpu"]
+##      - [ "GPU", "gpu"]
     value: "General"
   buddy_num_hours:
     widget: number_field
