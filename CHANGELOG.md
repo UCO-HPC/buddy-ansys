@@ -6,7 +6,7 @@ Changes to this project that result in an increase of the major and or minor rev
 ### Added
 - Users can now access the GPU partition again
 
-## [1.1.0]
+## [1.1.0] - 2021-10-18
 ### Added
 - Ability to select core count
 ### Fixed
