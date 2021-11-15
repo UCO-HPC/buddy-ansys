@@ -5,6 +5,13 @@ Changes to this project that result in an increase of the major and or minor rev
 ### Added
 - Users can now access the GPU partition again
 
+## [1.1.2] - 11-15-2021
+### Fixed
+- Core count now shows correctly in ondemand
+
+## [1.1.1] - 2021-10-19
+Fixed typos and other incorrect wordings
+
 ## [1.1.0] - 2021-10-18
 ### Added
 - Ability to select core count
@@ -17,5 +24,7 @@ Changes to this project that result in an increase of the major and or minor rev
 ### Added
 - Initial commit of current code
 
-[Unreleased]: https://github.com/UCO-HPC/buddy_ansys/compare/1.1.0...HEAD
+[Unreleased]: https://github.com/UCO-HPC/buddy_ansys/compare/1.2.0...HEAD
+[1.1.2]: https://github.com/UCO-HPC/buddy_ansys/compare/1.1.1...1.1.2
+[1.1.1]: https://github.com/UCO-HPC/buddy_ansys/compare/1.1.0...1.1.1
 [1.1.0]: https://github.com/UCO-HPC/buddy_ansys/compare/1.0.0...1.1.0
