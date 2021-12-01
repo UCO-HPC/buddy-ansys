@@ -30,7 +30,7 @@ Fixed typos and other incorrect wordings
 - Initial commit of current code
 
 [Unreleased]: https://github.com/UCO-HPC/buddy_ansys/compare/v2.0.0...devel
-[v2.0.0]: https://github.com/UCO-HPC/buddy_ansys/compare/v1.2.0...v2.0.0
+[v2.0.0]: https://github.com/UCO-HPC/buddy_ansys/compare/v1.1.2...v2.0.0
 [v1.1.2]: https://github.com/UCO-HPC/buddy_ansys/compare/v1.1.1...v1.1.2
 [v1.1.1]: https://github.com/UCO-HPC/buddy_ansys/compare/v1.1.0...v1.1.1
 [v1.1.0]: https://github.com/UCO-HPC/buddy_ansys/compare/v1.0.0...v1.1.0
