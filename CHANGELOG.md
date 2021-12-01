@@ -3,6 +3,10 @@ Changes to this project that result in an increase of the major and or minor rev
 
 ## [Unreleased] - Unknown
 
+## [v2.0.1] - 12-01-2021
+### Fixed
+- Repaired access to GPU nodes
+
 ## [v2.0.0] - 12-01-2021
 ### Added
 - Users can now access the GPU partition again
@@ -29,7 +33,8 @@ Fixed typos and other incorrect wordings
 ### Added
 - Initial commit of current code
 
-[Unreleased]: https://github.com/UCO-HPC/buddy_ansys/compare/v2.0.0...devel
+[Unreleased]: https://github.com/UCO-HPC/buddy_ansys/compare/v2.0.1...devel
+[v2.0.1]: https://github.com/UCO-HPC/buddy_ansys/compare/v2.0.0...v2.0.1
 [v2.0.0]: https://github.com/UCO-HPC/buddy_ansys/compare/v1.1.2...v2.0.0
 [v1.1.2]: https://github.com/UCO-HPC/buddy_ansys/compare/v1.1.1...v1.1.2
 [v1.1.1]: https://github.com/UCO-HPC/buddy_ansys/compare/v1.1.0...v1.1.1
