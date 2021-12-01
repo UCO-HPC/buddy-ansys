@@ -2,6 +2,7 @@
 cluster: "buddy"
 form:
   - version
+  - modules
   - buddy_queue
   - buddy_num_hours
   - buddy_num_cores
@@ -14,6 +15,7 @@ attributes:
     help: "This defines the version of ANSYS you want to load."
     options:
       - [ "2020R2", "ANSYS/2020R2" ]
+  modules: ""
   buddy_queue:
     label: Queue
     help: "Queue your job will run on"
