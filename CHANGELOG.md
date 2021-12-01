@@ -3,6 +3,10 @@ Changes to this project that result in an increase of the major and or minor rev
 
 ## [Unreleased] - Unknown
 
+## [v2.0.1] - 12-01-2021
+### Fixed
+- Repaired access to GPU nodes
+
 ## [v2.0.0] - 12-01-2021
 ### Added
 - Users can now access the GPU partition again
