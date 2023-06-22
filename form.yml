@@ -15,6 +15,7 @@ attributes:
     help: "This defines the version of ANSYS you want to load."
     options:
       - [ "2020R2", "ANSYS/2020R2" ]
+      - [ "2023R1", "ANSYS/2023R1" ]
   modules: ""
   buddy_queue:
     label: Queue
