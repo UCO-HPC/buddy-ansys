@@ -3,22 +3,26 @@ Changes to this project that result in an increase of the major and or minor rev
 
 ## [Unreleased] - Unknown
 
-## [v2.0.2] - 12-16-2021
+## [v2.1.0] - 2023-06-22
+### Added
+- Added ANSYS 2023R1
+
+## [v2.0.2] - 2022-16-12
 ### Fixed
 - Removed user notice that GPUs were inaccessible
 
-## [v2.0.1] - 12-01-2021
+## [v2.0.1] - 2021-01-12
 ### Fixed
 - Repaired access to GPU nodes
 
-## [v2.0.0] - 12-01-2021
+## [v2.0.0] - 2021-01-12
 ### Added
 - Users can now access the GPU partition again
 - Selecting a version actually does something
 - Modules listed in form.yml will now be loaded via template/script.sh.erb
 - Fixed changelog
 
-## [v1.1.2] - 11-15-2021
+## [v1.1.2] - 2021-15-11
 ### Fixed
 - Core count now shows correctly in ondemand
 
@@ -37,7 +41,8 @@ Fixed typos and other incorrect wordings
 ### Added
 - Initial commit of current code
 
-[Unreleased]: https://github.com/UCO-HPC/buddy_ansys/compare/v2.0.2...devel
+[Unreleased]: https://github.com/UCO-HPC/buddy_ansys/compare/v2.1.0...devel
+[v2.1.0]: https://github.com/UCO-HPC/buddy_ansys/compare/v2.0.2...v2.1.0
 [v2.0.2]: https://github.com/UCO-HPC/buddy_ansys/compare/v2.0.1...v2.0.2
 [v2.0.1]: https://github.com/UCO-HPC/buddy_ansys/compare/v2.0.0...v2.0.1
 [v2.0.0]: https://github.com/UCO-HPC/buddy_ansys/compare/v1.1.2...v2.0.0
