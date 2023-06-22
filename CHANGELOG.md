@@ -3,7 +3,7 @@ Changes to this project that result in an increase of the major and or minor rev
 
 ## [Unreleased] - Unknown
 
-## [v2.1] - 2023-06-22
+## [v2.1.0] - 2023-06-22
 ### Added
 - Added ANSYS 2023R1
 
