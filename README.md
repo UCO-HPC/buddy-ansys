@@ -8,7 +8,7 @@ An app designed for UCO's OnDemand that launches an ANSYS Workbench.
 ## Prerequisites
 
 The following should be made available on the compute nodes
-- [ANSYS Workbench] 2020R2
+- [ANSYS Workbench] 2020R2+
 - [Xfce Desktop] 4+
 - [TurboVNC] 2.2.3+
 - [websockify] 0.6.0+
