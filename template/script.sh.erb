@@ -22,20 +22,8 @@ cd "${HOME}"
 
 # Start ANSYS Workbench
 
-# Clear current modules and load the requested version
-module purge
-module load <%= context.version %>
-
-<%- unless context.modules.blank? -%> 
-# Purge the module environment to avoid conflicts
-module purge
-
-# Load the require modules
-module load <%= context.modules %>
-
-# List loaded modules
-module list
-<%- end -%>
+# Load the required environment
+module load <%= context.version %> 
 
 # Disable checking of the lock file. This will prevent errors should 
 # the previous session not be cleaned up correctly
@@ -47,13 +35,13 @@ export ANSYS_LOCK="OFF"
 export CUE_GRAPHICS="mesa"
 <%- end -%>
 
-# Launch ANSYS Workbench
+# Launch the requested ANSYS application
 <%- if gpu -%>
 module list
 set -x
-vglrun runwb2
+vglrun <%= context.ansys_type %>
 <%- else -%>
 module list
 set -x
-runwb2
+<%= context.ansys_type %>
 <%- end -%>

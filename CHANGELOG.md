@@ -3,6 +3,10 @@ Changes to this project that result in an increase of the major and or minor rev
 
 ## [Unreleased] - Unknown
 
+## [v2.2.0] - 2023-06-23
+### Added
+- Added option to select between workbench and fluent
+
 ## [v2.1.0] - 2023-06-22
 ### Added
 - Added ANSYS 2023R1
@@ -41,7 +45,8 @@ Fixed typos and other incorrect wordings
 ### Added
 - Initial commit of current code
 
-[Unreleased]: https://github.com/UCO-HPC/buddy_ansys/compare/v2.1.0...devel
+[Unreleased]: https://github.com/UCO-HPC/buddy_ansys/compare/v2.2.0...devel
+[v2.2.0]: https://github.com/UCO-HPC/buddy_ansys/compare/v2.1.0...v2.2.0
 [v2.1.0]: https://github.com/UCO-HPC/buddy_ansys/compare/v2.0.2...v2.1.0
 [v2.0.2]: https://github.com/UCO-HPC/buddy_ansys/compare/v2.0.1...v2.0.2
 [v2.0.1]: https://github.com/UCO-HPC/buddy_ansys/compare/v2.0.0...v2.0.1
