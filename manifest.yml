@@ -1,8 +1,8 @@
 ---
-name: ANSYS Workbench
+name: ANSYS
 category: Interactive Apps
 subcategory: GUIs
 role: batch_connect
-description: "This app will launch an [ANSYS Workbench] within a [Turbo VNC] server
-  on Buddy. \r\n\r\n[ANSYS Workbench]: https://www.ansys.com/\r\n[Turbo VNC]: https://www.turbovnc.org/\r\n"
+description: "This app will launch [ANSYS] within a [Turbo VNC] server
+  on Buddy. \r\n\r\n[ANSYS]: https://www.ansys.com/\r\n[Turbo VNC]: https://www.turbovnc.org/\r\n"
 icon: ''
